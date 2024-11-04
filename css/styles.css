@@ -561,15 +561,11 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-switcher-button:hover {
-  background-color: #404bbf;
-  border: none;
-  fill: #ffffff;
-}
+.modal-switcher-button:hover,
 .modal-switcher-button:focus {
-  fill: #ffffff;
   background-color: #404bbf;
   border: none;
+  fill: #ffffff;
 }
 .modal-switcher-pic {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
